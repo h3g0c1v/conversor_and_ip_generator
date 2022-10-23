@@ -319,7 +319,7 @@ function number_hex(){
     for quantity in $(seq -w 1 $number); do
         random_number=$((RANDOM % 256))
         hex=$(echo "obase=16;$random_number" | bc)
-        echo -e "\t${purple}[$quantity]${end}${gray} Número decimal:${end} ${yellow}$hex${end}"
+        echo -e "\t${purple}[$quantity]${end}${gray} Número hexadecimal:${end} ${yellow}$hex${end}"
         let counter+=1
     done
     echo
