@@ -31,6 +31,7 @@ function helpPanel(){
     echo -e "\t${purple}-m${end}${gray} Generar máscaras de red aleatoriamente${end}"
     echo -e "\t${purple}-n${end}${gray} Generar varios aleatoriamente (se usa con los parámetros '-d', '-b' o '-x')${end}"
     echo -e "\t${purple}-a${end}${gray} Generar números decimales, binarios y hexadecimales aleatoriamente${end}"
+    echo -e "\t${purple}-s${end}${gray} Generar una dirección IP y una máscara de red aleatoriamente${end}"
 }
 
 function generate_number(){
