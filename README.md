@@ -10,6 +10,8 @@ This program is a small script that I have created to help study the conversions
 - Hexadecimal to decimal
 - Hexadecimal to binary
 
+You can also randomly generate ip addresses and network masks.
+
 ## How to use this tool:
 
 ./conversor_and_ip_generator.sh [-parameter]
